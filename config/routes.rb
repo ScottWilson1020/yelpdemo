@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'pages/contact'
 
+  get 'pages/blog'
+
   root 'restaurants#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

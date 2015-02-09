@@ -31,6 +31,17 @@ gem 'spring',        group: :development
 # Heroku Gemfile
 gem 'rails_12factor', group: :production
 
+# Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
+gem 'carrierwave'
+# allows carrierwave to use amazon s3
+gem 'fog'
+
+#for secure password information
+gem 'figaro'
+
+gem 'nokogiri'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
