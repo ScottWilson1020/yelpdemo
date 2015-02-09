@@ -39,7 +39,7 @@ gem 'fog'
 #for secure password information
 gem 'figaro'
 
-
+gem "mini_magick"
 
 gem 'nokogiri'
 
