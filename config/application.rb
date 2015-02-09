@@ -21,3 +21,6 @@ module Yelpdemo
     # config.i18n.default_locale = :de
   end
 end
+
+
+config.assets.initialize_on_precompile = false (source: http://stackoverflow.com/questions/20040342/precompiling-assets-failed)
