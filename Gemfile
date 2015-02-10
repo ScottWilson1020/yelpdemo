@@ -39,7 +39,11 @@ gem 'fog'
 #for secure password information
 gem 'figaro'
 
+#making pics small
 gem "mini_magick"
+
+#user log ins
+gem 'devise'
 
 gem 'nokogiri'
 
