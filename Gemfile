@@ -45,6 +45,9 @@ gem "mini_magick"
 #user log ins
 gem 'devise'
 
+# for searches 
+gem 'searchkick'
+
 gem 'nokogiri'
 
 
